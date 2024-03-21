@@ -1,0 +1,50 @@
+header h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(15, 14, 13);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: .3;
+    color: rgb(182, 168, 168);
+    align-items: center;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 1rem;
+
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
