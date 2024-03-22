@@ -1,3 +1,7 @@
+body {
+    background-image: url(../img/fondo.jpg);
+}
+
 header h1 {
     background-color: black;
     color: white;
@@ -44,7 +48,79 @@ nav ul li:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 130px;
+    margin-right: 130px;
     margin-top: 50px;
+}
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 50px;
+
+}
+
+.widget [type="submit"]:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.contenido main {
+    background-color: rgb(201, 201, 254);
+    border: solid;
+    height: 800px;
+}
+
+.contenido main h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: coral;
+    margin: 50px 50px;
+}
+
+.articulos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.articulos h3 {
+    text-transform: uppercase;
+}
+
+.mensaje {
+    text-align: center;
+}
+
+
+aside div {
+    background-color: rgb(201, 201, 254);
+    border: solid;
+    height: 800px;
+    width: 280px;
+}
+
+
+.carabinero {
+    margin: 10px 50px;
+    width: 200px;
+}
+
+aside div h6 {
+    margin-top: 0;
+    text-align: center;
+}
+
+aside div h3 {
+    text-align: center;
+}
+
+aside div p {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+
 }
